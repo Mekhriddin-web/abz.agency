@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/abz.agency/static/css/main.cd7daf87.css",
+    "main.js": "/abz.agency/static/js/main.7c400ac7.js",
+    "static/media/intro-bg.jpg": "/abz.agency/static/media/intro-bg.c3aa52ffd499be06afad.jpg",
+    "static/media/success-image.svg": "/abz.agency/static/media/success-image.0d3202ba11b04fa7364b0f83ce42aea5.svg",
+    "static/media/header-logo.svg": "/abz.agency/static/media/header-logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "static/media/photo-cover.svg": "/abz.agency/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
+    "static/media/loader.svg": "/abz.agency/static/media/loader.69d334398f4556adc151f5938f744d28.svg",
+    "index.html": "/abz.agency/index.html",
+    "main.cd7daf87.css.map": "/abz.agency/static/css/main.cd7daf87.css.map",
+    "main.7c400ac7.js.map": "/abz.agency/static/js/main.7c400ac7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd7daf87.css",
+    "static/js/main.7c400ac7.js"
+  ]
+}
