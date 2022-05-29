@@ -1,0 +1,28 @@
+// wrap
+
+$container-width: 1170px;
+$container-p: 16px;
+
+/* colors */
+
+$white: #fff;
+$black: #000;
+$primary-color: #f4e041;
+$secondary-color: #00bdd3;
+$third-color: #d0cfcf;
+$fourth-color: #7e7e7e;
+$background-color: #f8f8f8;
+$error-color: #cb3d40;
+
+/* fonts */
+
+$defFonts: 'Nunito', sans-serif;
+
+/* breakpoints */
+
+$breakpoints: (
+  xs: 440px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1170px,
+);

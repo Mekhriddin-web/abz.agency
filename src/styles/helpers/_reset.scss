@@ -1,0 +1,107 @@
+@import-normalize;
+
+/* set border-box for all */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+}
+
+/* reset ul, ol padding */
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+// input focus
+input:focus {
+  outline: none;
+}
+
+// hide input
+input[type='radio'],
+input[type='file'] {
+  appearance: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+/* reset list-style */
+li {
+  list-style: none;
+}
+/* reset text-decoration */
+a[href] {
+  text-decoration: none;
+}
+a[href]:hover {
+  text-decoration: none;
+}
+
+/* reset heading margin */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* br fix */
+@include media('>xs') {
+  .mb {
+    display: none !important;
+  }
+  .pc {
+    display: block !important;
+  }
+}
+@include media('<=xs') {
+  .mb {
+    display: block !important;
+  }
+  .pc {
+    display: none !important;
+  }
+}
+
+/* set default body styles */
+body {
+  min-height: 100%;
+  position: relative;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+
+  font-family: $defFonts;
+  font-size: 100%;
+  line-height: 26px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  word-break: break-word;
+}
+
+/* default class */
+.container {
+  display: block;
+  width: 100%;
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 $container-p;
+  @include media('>xs') {
+    padding: 0 32px;
+  }
+  @include media('>sm') {
+    padding: 0 60px;
+  }
+  @include media('>=lg') {
+    padding: 0;
+  }
+}

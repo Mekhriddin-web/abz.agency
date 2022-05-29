@@ -1,0 +1,12 @@
+.offset-top-first {
+  margin-top: 50px;
+  @include media('>xs') {
+    margin-top: 34px;
+  }
+  @include media('>sm') {
+    margin-top: 20px;
+  }
+}
+.offset-bot-first {
+  margin-bottom: 20px;
+}

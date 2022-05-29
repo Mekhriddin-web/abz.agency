@@ -1,0 +1,18 @@
+@import '~include-media/dist/include-media';
+
+/*!* helpers parts *!*/
+@import './helpers/variables';
+@import './helpers/reset';
+
+/*!* components *!*/
+@import './components/fonts';
+@import './components/buttons';
+@import './components/offset';
+@import './components/preloader';
+@import './components/tooltip';
+
+/*!* layout parts *!*/
+@import './layout/header';
+@import './layout/intro';
+@import './layout/employees';
+@import './layout/form';

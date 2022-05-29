@@ -1,0 +1,47 @@
+/* btn */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100px;
+  min-height: 34px;
+  padding: 4px 18px;
+  border: 0;
+  border-radius: 80px;
+  background-color: $primary-color;
+
+  position: relative;
+  text-align: center;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+
+  // animate
+  transition: 0.2s ease;
+
+  // defaults
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: #ffe302;
+  }
+
+  &:disabled,
+  &[disabled] {
+    background-color: #b4b4b4;
+    color: rgba(255, 255, 255, 0.87);
+  }
+}
+
+.btn-long {
+  max-width: 120px;
+}
+
+.btn-center {
+  margin: 0 auto;
+}

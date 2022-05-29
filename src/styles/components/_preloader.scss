@@ -1,0 +1,38 @@
+.loader {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 48px;
+  animation: spin 2s linear infinite;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.loader__img {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: calc(48 / 48 * 100%);
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 50%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

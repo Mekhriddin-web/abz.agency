@@ -1,0 +1,24 @@
+.tippy-box[data-animation='fade'][data-state='hidden'] {
+  opacity: 0;
+}
+
+[data-tippy-root] {
+  max-width: calc(100vw - 10px);
+}
+
+.tippy-box {
+  min-height: 32px;
+  background-color: rgba(0, 0, 0, 0.87);
+  border-radius: 4px;
+  color: #ffffff;
+  position: relative;
+  white-space: normal;
+  outline: 0;
+  transition-property: transform, visibility, opacity;
+}
+
+.tippy-content {
+  position: relative;
+  z-index: 1;
+  padding: 3px 16px;
+}
